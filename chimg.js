@@ -3,6 +3,6 @@ $(function() {
                 this.src = "img/cat.jpg";
             });
         $("#myImg").mouseout(function() {
-                this.src = "img/Aug_2017.jpg";
+                this.src = "img/July_2019.jpg";
             });
     });
