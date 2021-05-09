@@ -1,8 +1,8 @@
 $(function() {
         $("#myImg").mouseover(function() {
-                this.src = "img/cat.jpg";
+                this.src = "https://t-sakai-kure.github.io/img/cat.jpg";
             });
         $("#myImg").mouseout(function() {
-                this.src = "img/July_2019.jpg";
+                this.src = "https://t-sakai-kure.github.io/img/July_2019.jpg";
             });
     });
