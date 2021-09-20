@@ -1,8 +1,13 @@
 $(function() {
-        $("#myImg").mouseover(function() {
-                this.src = "https://t-sakai-kure.github.io/img/cat.jpg";
+        $("#myImg").mouseenter(function() {
+                var random = Math.floor( Math.random()*3 );
+                if (random == 0) {
+                        this.src = "https://t-sakai-kure.github.io/img/cat.jpg";                        
+                } else if (random == 2) {
+                        this.src = "https://t-sakai-kure.github.io/img/cat3.jpg";                
+                }
             });
         $("#myImg").mouseout(function() {
-                this.src = "https://t-sakai-kure.github.io/img/July_2019.jpg";
+                this.src = "https://t-sakai-kure.github.io/img/Dec_2020.jpg";
             });
     });
